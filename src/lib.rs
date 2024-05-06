@@ -32,7 +32,7 @@
 //! - path shape-rendering
 //! - patterns
 
-mod util;
+pub mod util;
 
 use std::convert::Infallible;
 use vello::peniko::{BlendMode, Fill};
